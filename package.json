@@ -1,0 +1,79 @@
+{
+  "_from": "git+https://github.com/lion-man44/form_to_json.git#0.3.0",
+  "_id": "@orange-lion/form-to-json@0.3.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@orange-lion/form-to-json",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@orange-lion/form-to-json@git+https://github.com/lion-man44/form_to_json.git#0.3.0",
+    "name": "@orange-lion/form-to-json",
+    "escapedName": "@orange-lion%2fform-to-json",
+    "scope": "@orange-lion",
+    "rawSpec": "git+https://github.com/lion-man44/form_to_json.git#0.3.0",
+    "saveSpec": "git+https://github.com/lion-man44/form_to_json.git#0.3.0",
+    "fetchSpec": "https://github.com/lion-man44/form_to_json.git",
+    "gitCommittish": "0.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/lion-man44/form_to_json.git#7a6594b55c572c394f68b0c49d3d9aafa1d9fc18",
+  "_spec": "@orange-lion/form-to-json@git+https://github.com/lion-man44/form_to_json.git#0.3.0",
+  "_where": "/Users/gary.sentosa/go/src/github.com/zuu-development/flower",
+  "author": {
+    "name": "lion-man44",
+    "email": "lion44man@gmail.com"
+  },
+  "ava": {
+    "files": [
+      "test/*_test.js"
+    ],
+    "source": [
+      "form_to_json.js"
+    ],
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/lion-man44/form_to_json/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "form value is to be JSON",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jsdom": "^10.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/lion-man44/form_to_json#readme",
+  "keywords": [
+    "form",
+    "json",
+    "form to json"
+  ],
+  "license": "MIT",
+  "main": "form_to_json.js",
+  "name": "@orange-lion/form-to-json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lion-man44/form_to_json.git"
+  },
+  "scripts": {
+    "test": "ava --verbose",
+    "test:watch": "ava --watch --verbose"
+  },
+  "version": "0.3.0"
+}
